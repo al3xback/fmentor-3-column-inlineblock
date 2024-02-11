@@ -4,7 +4,7 @@
 .cards {
 	display: inline-block;
 	width: 100%;
-	max-width: func.em(360, var.$font-size-primary);
+	max-width: func.em(320, var.$font-size-primary);
 	margin: func.em(30, var.$font-size-primary) 0
 		func.em(60, var.$font-size-primary);
 	text-align: left;
@@ -37,7 +37,7 @@
 .card__img {
 	width: func.em(60, var.$font-size-primary);
 	height: auto;
-	margin-bottom: func.em(25, var.$font-size-primary);
+	margin-bottom: func.em(35, var.$font-size-primary);
 }
 
 .card__title {
@@ -47,7 +47,7 @@
 }
 
 .card__btn {
-	margin-top: func.em(50, var.$font-size-primary);
+	margin-top: func.em(30, var.$font-size-primary);
 }
 
 @media (min-width: 62em) {
@@ -63,5 +63,9 @@
 		display: inline-block;
 		width: 33.33%;
 		font-size: 0.9375rem;
+	}
+
+	.card__btn {
+		margin-top: func.em(75, var.$font-size-primary);
 	}
 }
